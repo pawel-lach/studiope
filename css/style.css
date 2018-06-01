@@ -1,0 +1,500 @@
+/* General Styles */
+
+* {
+	box-sizing: border-box
+}
+
+body {
+	margin: 0;
+	font-family: 'Roboto Slab', serif;
+	color: #777;
+}
+
+h1 {
+	font-size: 4em;
+	text-transform: uppercase;
+}
+
+h3 {
+	text-transform: uppercase;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	color: #222;
+}
+
+section {
+	padding: 10px;
+}
+
+section header {
+	margin-bottom: 70px;
+}
+
+section .section-heading {
+	text-transform: uppercase;
+	margin-bottom: 25px;
+}
+
+section .section-description {
+	font-family: 'Droid Serif', sans-serif;
+	color: #777;
+}
+
+ .redLine
+{  
+    height: 2px;
+    width: 63px;
+    padding-top: 2px;
+    border-bottom: solid 2px #d07c7c;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/*.social-icons a {
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+	line-height: 40px;
+	background-color: #222;
+	border: 1px solid #222;
+	border-radius: 50%;
+	font-size: 1.8em;
+	color: #fff;
+	transition: all .3s;
+	margin: 5px;
+	text-align: center;
+}
+
+.social-icons a:hover {
+	background-color: #0ed8d6;
+	border: 1px solid #0ed8d6;
+}*/
+
+.insta {
+	width: 256px;
+	height: 256px;
+}
+
+
+.gallery .vertical {
+    width: 175px;
+    height: 230px;
+    transition: 1s;
+}
+
+.gallery img {
+    width: 300px;
+    height: 200px;
+    transition: 1s;
+}
+
+.heart{
+    color:#e25555;
+}
+
+a.btn-blue, .btn-blue {
+	background-color: #0ed8d6;
+	border: 1px solid #0ed8d6;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+	transition: all 1s;
+	padding: 15px 30px;
+	
+}
+
+a.btn-dark:hover, .btn-dark:hover {
+	background-color: #000;
+	color: #fff;
+    transition: 1s;
+	
+}
+
+.img-header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.row {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/* General Styles End */
+
+
+
+/* About Styles */
+
+#about .about_text {
+    font-family: Inconsolata;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #5a5957;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 20px;
+}
+/* About Styles END */
+
+
+
+
+
+
+
+/* Main Menu Styles */
+
+
+
+#main-nav {
+	background-color: transparent;
+}
+
+#main-nav a.navbar-brand {
+	font-size: 2em;
+	font-family: 'Droid Serif', sans-serif;
+	text-transform: none;
+}
+
+#main-nav a {
+	color: #a79975;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	transition: all .3s;
+    font-size: 16px;
+    display: inherit;
+}
+
+#main-nav a:hover {
+	color: #d6b252;
+}
+
+.nav.navbar-nav {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	float: none;
+	font-size: 20px;
+}
+
+
+/* Main Menu Styles End */
+
+
+
+
+
+
+
+/* Main Header Styles */
+#main-header {
+	height: 100vh;
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/header/pictures_on_the_wall.jpg);
+	background-size: cover;
+	position: relative;
+}
+
+#main-header .header-caption {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 0;
+	right: 0;
+	margin: auto;
+	text-align: center;
+}
+
+#main-header .header-caption h1 {
+	color: #fff;
+	margin: 45px 0;
+}
+
+#main-header .header-caption h2 {
+	color: #fff;
+	font-family: 'Droid Serif', sans-serif;
+	font-size: 2.5em;
+}
+
+
+
+/* Main Header Styles End */
+
+
+/* Section Services Styles */
+
+
+/*
+#contact i {
+	font-size: 3em;
+	height: 80px;
+	width: 80px;
+	line-height: 80px;
+	border: 1px solid #0ed8d6;
+	color: #fff;
+	background-color: #0ed8d6;
+	transition: all .3s;
+	
+}
+
+#contact i:hover {
+	color: #0ed8d6;
+	background-color: #fff;
+}
+*/
+
+
+/* Section Services Styles End */
+
+
+
+/* Section Portfolio Styles */
+
+#portfolio {
+	background-color: #f7f7f7;
+}
+
+#portfolio .single-portfolio-item {
+	background: #fff;
+	margin-bottom: 20px;
+}
+
+#portfolio .portfolio-image-container {
+	height: 300px;
+	overflow: hidden;
+}
+
+#portfolio .single-portfolio-item .portfolio-image {
+	background-position: center;
+	background-size: cover;
+	height: 100%;
+	position: relative;
+	transition: .3s;
+}
+
+#portfolio .single-portfolio-item .portfolio-image:hover {
+	transform: scale(1.2);
+	transition-duration: .7s;
+}
+
+#portfolio .single-portfolio-item .portfolio-image .portfolio-image-mask {
+    background-color: rgba(0,0,0,0.7);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: all .3s;
+	cursor: pointer;
+}
+
+#portfolio .single-portfolio-item .portfolio-image .portfolio-image-mask:hover{
+	opacity: 1;
+}
+
+#portfolio .single-portfolio-item .portfolio-image .portfolio-image-mask .fa{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	color: #fff;
+	font-size: 3em;
+	margin: auto;
+    left: 0;
+    right: 0;
+	
+}
+
+#portfolio .single-portfolio-item h1 {
+	padding-top: 10px;
+}
+
+#portfolio .single-portfolio-item p {
+	padding-bottom: 25px
+}
+
+#portfolio-item-1 {
+	background-image: url(../img/portfolio/personal.jpg);
+}
+
+#portfolio-item-2 {
+	background-image: url(../img/portfolio/sport.jpg);
+}
+
+#portfolio-item-3 {
+	background-image: url(../img/portfolio/hen_party.jpg);
+}
+
+#portfolio-item-4 {
+	background-image: url(../img/portfolio/wedding.jpg);
+}
+
+#portfolio-item-5 {
+	background-image: url(../img/portfolio/family.jpg);
+}
+
+#portfolio-item-6 {
+	background-image: url(../img/portfolio/travels.jpg);
+}
+
+
+/* Section Portfolio Styles End */
+
+
+/* Section Team Styles */
+
+/*
+#team .team-member {
+	margin-bottom: 40px;
+}
+
+#team .team-member img {
+	max-height: 230px;
+}
+*/
+
+/* Section Team Styles End */
+
+
+/* Section Contact */
+
+#contact {
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/footer/contact.jpg);
+	background-size: cover;
+	background-position: center;
+	
+}
+
+#contact h2, #contact p {
+	color: #fff;
+}
+
+#contact input:not([type='submit']), #contact textarea {
+	width: 100%;
+	border: 0px solid;
+}
+
+#contact input, #contact textarea {
+	text-transform: uppercase;
+	padding: 15px;
+	font-family: 'Montserrat', sans-serif;
+	border-radius: 5px;
+}
+
+#contact input:not(:last-child) {
+	margin-bottom: 30px;
+}
+
+#contact input[type="submit"] {
+	margin-top: 30px;
+}
+
+#contact ::-webkit-input-placeholder,
+#contact ::-moz-placeholder,
+#contact :-ms-input-placeholder,
+#contact :-moz-placeholder {
+	color: #777;
+}
+*/
+
+/* Section Contact End */
+
+.dropdown-item {
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+}
+
+/* Footer */
+
+#main-footer {
+	padding: 10px 0;
+}
+
+#main-footer nav, #main-footer .copyright {
+	line-height: 50px;
+	margin: 0;
+}
+
+
+#main-footer nav, #main-footer .social-icons {
+	text-align: center;
+}
+
+#main-footer  ul li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+#main-footer nav a {
+	color: #777;
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	transition: all .3s;
+}
+
+#main-footer nav a:hover {
+	color: #0ed8d6;
+}
+
+/* Footer End*/
+
+
+/*Personal Photo*/
+
+.gallery {
+    margin: 10px 50px;
+}
+
+.gallery img {
+    padding: 15px;
+    transition: 1s;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+
+/*Personal Photo end*/
+
+Contact
+
+.contactFlexbox {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    width: 90%;
+    
+}
+
+.icon {
+    font-size: 60px;
+    width: 80px;
+    height: 80px;
+    padding-top: 10px;
+    margin-right: 15px;
+    text-align: center; 
+    color: #fff;
+    transition: 1s;
+}
+
+.icon:hover {
+    color: #000;
+    transition: 1s;
+    background-color: #fff;
+}
+
+
+.icon_data {
+    font-size: 20px;
+}

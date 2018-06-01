@@ -1,0 +1,130 @@
+/* General Styles */
+
+
+/* General Styles End */
+
+/* Main Menu Styles */
+
+@media all and (max-width: 480px) {
+    
+	#main-nav, #main-nav.scroll {
+		background-color: #fff;
+	}
+	
+	/*#main-nav a, #main-nav.scroll a {
+		color: #0ed8d6;
+	}*/
+	
+	#main-nav a:hover, #main-nav.scroll a:hover {
+		color: #777777;
+	}
+	
+	.navbar-nav {
+		float: none;
+	}
+	
+	#main-nav .navbar-toggle {
+		background-color: #fff;
+		transition: all .3s;
+	}
+	
+	#main-nav .navbar-toggle:hover {
+		background-color: #000;
+	}
+	
+	#main-nav .icon-bar {
+		background-color: #0ed8d6;
+	}
+	
+	#main-nav .navbar-toggle:hover .icon-bar {
+		background-color: #fff;
+	}
+    
+    .img-header {
+        max-width: 270px;
+        
+    }
+
+}
+
+/* Main Menu Styles End */
+
+
+
+@media all and (max-width: 480px) {
+    
+#about .about_text {
+    font-size: 20px;
+    width: 85%; 
+    }
+    
+   /* .contactFlexbox {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    width: 90%;
+    
+}
+
+.icon {
+    font-size: 60px;
+    width: 80px;
+    height: 80px;
+    padding-top: 10px;
+    margin-right: 15px;
+    text-align: center; 
+    color: #fff;*/
+}
+}
+    
+
+
+
+/* Main Header Styles */
+@media all and (max-width: 480px) {
+
+	#main-header .header-caption h1 {
+		font-size: 2.8em;
+	}
+
+	#main-header .header-caption h2 {
+		font-size: 1.5em;
+	}
+}
+
+/* Main Header Styles End */
+
+/* Section Contact */
+
+@media all and (max-width: 786px) {
+	#contact [class*='col-'] {
+		margin-bottom: 30px;
+	}
+}
+
+/* Section Contact End */
+
+
+/* Footer */
+
+@media all and (max-width: 992px) {
+	
+	#main-footer ul {
+		padding: 0;
+	}
+}
+
+@media all and (max-width: 786px) {
+	#main-footer {
+		text-align: center;
+	}
+	
+	#main-footer ul li {
+		margin: 0;
+		padding: 5px;
+	}
+}
+
+/* Footer End */
